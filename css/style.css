@@ -1,0 +1,48 @@
+body {
+    padding-left:10%;
+    padding-rigth: 10%;
+}
+td:nth-child(1), th{
+    background-color: #dddddd;
+    text-align: center;
+}
+td:nth-child(2) {
+   text-align: center;
+}
+img {
+    width: 70px;
+}
+.campoDeBusca i {
+    position: absolute;
+}
+.fa-search {
+    padding: 5px;
+    top: 35px;
+    min-width: 25px;
+    text-align: center;
+}
+
+#busca {
+    width: 60%;
+    font-size: 16px;
+    background-position: 10px 12 px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 24px;
+}
+#tabelaPrincipal {
+    width: 80%;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+#tabelaPrincipal th {
+    text-align: center;
+    padding: 15px;
+}
+#tabelaPrincipal tr {
+    border-bottom: 1px solid #ccc;
+}
+.hidden {
+  display: none;
+}
